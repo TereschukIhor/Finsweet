@@ -1,0 +1,226 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
+    <mj-attributes>
+      <mj-wrapper padding="0px" text-align="left" />
+      <mj-section padding="0px" background-repeat="no-repeat" />
+      <mj-button align="left" padding="0px" inner-padding="0px" border-radius="0px" font-family="Roboto, sans-serif"/>
+      <mj-image padding="0px" />
+      <mj-text padding="0px" font-family="Roboto, sans-serif"/>
+      <mj-all font-family="Roboto, sans-serif"/>
+    </mj-attributes>
+    <mj-preview>Save the environment today for a better tomorrow</mj-preview>
+    <mj-title>finsweet</mj-title>
+    <mj-style>
+        .mob-padd-bot__events {
+          padding-bottom: 30px;
+        }
+      @media (max-width: 479px) {
+        .mob-padd-15 {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+        .mob-padd-30 {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+        .mob-padd-bot {
+          padding-bottom: 30px !important;
+        }
+        .mob-text-center {
+          text-align: center !important;
+        }
+        .mob-text-center div {
+          text-align: center !important;
+        }
+        .mob-mj-image-center table {
+          margin: 0 auto !important;
+        }
+
+        .mob__main-width {
+          max-width: 100% !important;
+        }
+        .mob-padd__main-link {
+          padding-left: 0 !important;
+        }
+        .mob-supp-width {
+          width: 50% !important;
+        }
+        .mob-supp-padd {
+          padding-bottom: 20px !important;
+        }
+        .contribute-link-margin {
+          margin-right: 10px !important;
+        }
+        .events-section-padding td{
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+        .mob-footer-padd {
+          padding-top: 20px!important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f3f3f3">
+
+    <!-- Logo section -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="20px 0 20px 30px">
+          <a href="https://www.google.com/" target="_blank" style="margin:0"><img src="img/logo.jpg" alt="logo" width="121px" height="27px"/></a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main section -->
+    <mj-section background-url="img/main-bg.jpg" background-size="cover">
+      <mj-column>
+        <mj-text css-class="mob-text-center" padding="50px 30px 30px">
+          <h1 class="mob__main-width" style="max-width:350px;margin:0;color:#ffffff;font-size:32px;font-weight:700;line-height:40px;">Save the environment today for a better tomorrow</h1>
+        </mj-text>
+        <mj-text css-class="mob-text-center mob-padd__main-link" padding="0 0 50px 30px">
+          <a href="https://www.google.com/" target="_blank" style="display:inline-block;margin:0;padding:10px 20px;background-color:#ffffff;border-radius:4px;color:#1d2130;font-size:16px;font-weight:500;text-decoration:none;">What we do</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Know section -->
+    <mj-section background-color="#ffffff" padding="30px 0">
+      <mj-column vertical-align="middle"> 
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="0 0 30px 10px">
+          <p style="margin:0;padding:0;font-size:0">
+            <span style="display:inline-block;width:20px;height:2px;margin:0;background-color:#000000;vertical-align:middle;"></span>
+            <span style="margin:0;padding-left:10px;color:#1d2130;font-size:16px;font-weight:700;line-height:16px;vertical-align:middle;text-transform:uppercase;">KNOW ABOUT US</span>
+          </p>
+        </mj-text>
+        <mj-text css-class="mob-padd-30 mob-text-center" padding="0 10px 10px 40px">
+          <h2 style="margin:0;color:#1d2130;font-size:32px;font-weight:700;line-height:40px;">We help nature smile and survive everywhere</h2>
+        </mj-text>
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="0 10px 10px 40px">
+          <p style="margin:0;color:#1d2130;font-size:16;font-weight:400;line-height:20px;">
+            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+        </mj-text>
+        <mj-text css-class="mob-padd-15 mob-text-center mob-padd-bot" padding="0 10px 0 40px">
+          <a href="https://www.google.com/" target="_blank" style="display:inline-block;margin:0;padding:10px 20px;background-color:#70c174;border-radius:4px;color:#ffffff;font-size:16px;font-weight:500;text-decoration:none;">Learn more</a>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-image css-class="mob-padd-15" padding="0 10px 0 0" src="img/know-img.jpg" alt="party"/>
+      </mj-column>
+    </mj-section>
+
+    <!-- Supporters section -->
+    <mj-section background-color="#ffffff" padding="30px 0">
+      <mj-column width="100%">
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="0 0 30px 10px">
+          <p style="margin:0;padding:0;font-size:0">
+            <span style="display:inline-block;width:20px;height:2px;margin:0;background-color:#000000;vertical-align:middle;"></span>
+            <span style="margin:0;padding-left:10px;color:#1d2130;font-size:16px;font-weight:700;line-height:16px;vertical-align:middle;text-transform:uppercase;">our supporters</span>
+          </p>
+        </mj-text>
+      </mj-column>
+      <mj-column css-class="mob-supp-width" padding="0 5px 20px" width="33.3%" vertical-align="middle"> 
+        <mj-image src="img/support-logoipsum.jpg" alt="logoipsum" width="142px" height="28px" />
+      </mj-column>
+      <mj-column css-class="mob-supp-width" padding="0 5px 20px" width="33.3%" vertical-align="middle"> 
+        <mj-image src="img/support-logoipsum2.jpg" alt="logoipsum" width="137px" height="31px" />
+      </mj-column>
+      <mj-column css-class="mob-supp-width" padding="0 5px 20px" width="33.3%" vertical-align="middle"> 
+        <mj-image src="img/support-logoipsum3.jpg" alt="logoipsum" width="125px" height="28px" />
+      </mj-column>
+      <mj-column css-class="mob-supp-width mob-supp-padd" padding="0 5px" width="50%" vertical-align="middle"> 
+        <mj-image src="img/support-logoipsum4.jpg" alt="logoipsum" width="123px" height="24px" />
+      </mj-column>
+      <mj-column css-class="mob-supp-width" padding="0 5px" width="50%" vertical-align="middle"> 
+        <mj-image src="img/support-logoipsum5.jpg" alt="logoipsum" width="134px" height="31px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Contribute section -->
+    <mj-section background-url="img/contribute-bg.jpg" background-size="cover" background-position="center">
+      <mj-column>
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="30px 30px">
+          <h2 style="margin:0;color:#ffffff;font-size:32px;font-weight:700;line-height:40px;">You can contribute to make the environment greener!</h2>
+        </mj-text>
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="0 30px 30px">
+          <a class="contribute-link-margin" href="https://www.google.com/" target="_blank" style="display:inline-block;margin:0 30px 0 0;padding:10px 20px;background-color:#70c174;border-radius:4px;color:#ffffff;font-size:16px;font-weight:500;text-decoration:none;">Join as a volunteer</a>
+          <a href="https://www.google.com/" target="_blank" style="display:inline-block;margin:0;padding:10px 20px;background-color:#ffffff;border-radius:4px;color:#1d2130;font-size:16px;font-weight:500;text-decoration:none;">Donate</a>
+        </mj-text>
+      </mk-column>
+    </mj-section>
+
+    <!-- Events section -->
+    <mj-wrapper background-color="#ffffff" padding="30px 0">
+      <mj-section padding-bottom="30px">
+        <mj-column>
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="0 10px 0 10px">
+            <p style="margin:0;padding:0;font-size:0">
+              <span style="display:inline-block;width:20px;height:2px;margin:0;background-color:#000000;vertical-align:middle;"></span>
+              <span style="margin:0;padding-left:10px;color:#1d2130;font-size:16px;font-weight:700;line-height:16px;vertical-align:middle;text-transform:uppercase;">our events</span>
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="events-section-padding" padding="0 40px 30px">
+        <mj-column background-color="#bef3c0" border-radius="6px">
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="30px 30px 20px">
+            <p style="margin:0;color:#1d2130;font-size:32px;fonte-weight:700;line-height:32px;">23
+              <span style="margin:0;color:#1d2130;font-size:16px;fonte-weight:500;line-height:16px;text-transform:uppercase;">sep</span>
+            </p>
+          </mj-text>
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="0 30px 10px">
+            <p style="margin:0;padding:0;font-size:0">
+              <span style="margin:0;padding-right:10px;color:#1d2130;font-size:16px;font-weight:700;line-height:16px;vertical-align:middle;text-transform:uppercase;letter-spacing:2px;">Next event</span>
+              <span style="display:inline-block;width:20px;height:2px;margin:0;background-color:#000000;vertical-align:middle;"></span>
+            </p>
+          </mj-text>
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="0 30px 20px">
+            <p style="margin:0;color:#1d2130;font-size:16px;font-weight:700;line-height:20px;">Say no to plastic usage and save the planet</p>
+          </mj-text>
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="0 30px 30px">
+            <a href="https://www.google.com/" target="_blank" style="display:inline-block;margin:0;padding:10px 20px;background-color:#ffffff;border-radius:4px;color:#1d2130;font-size:16px;font-weight:500;text-decoration:none;">See more</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="events-section-padding" padding="0 40px">
+        <mj-column background-color="#bef3c0" border-radius="6px">
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="30px 30px 20px">
+            <p style="margin:0;color:#1d2130;font-size:32px;fonte-weight:700;line-height:32px;">25
+              <span style="margin:0;color:#1d2130;font-size:16px;fonte-weight:500;line-height:16px;text-transform:uppercase;">sep</span>
+            </p>
+          </mj-text>
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="0 30px 10px">
+            <p style="margin:0;padding:0;font-size:0">
+              <span style="margin:0;padding-right:10px;color:#1d2130;font-size:16px;font-weight:700;line-height:16px;vertical-align:middle;text-transform:uppercase;letter-spacing:2px;">Next event</span>
+              <span style="display:inline-block;width:20px;height:2px;margin:0;background-color:#000000;vertical-align:middle;"></span>
+            </p>
+          </mj-text>
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="0 30px 20px">
+            <p style="margin:0;color:#1d2130;font-size:16px;font-weight:700;line-height:20px;">Weekly cleaning program</p>
+          </mj-text>
+          <mj-text css-class="mob-padd-15 mob-text-center" padding="0 30px 30px">
+            <a href="https://www.google.com/" target="_blank" style="display:inline-block;margin:0;padding:10px 20px;background-color:#ffffff;border-radius:4px;color:#1d2130;font-size:16px;font-weight:500;text-decoration:none;">See more</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Footer section -->
+    <mj-section background-color="#EFF7F2">
+      <mj-column vertical-align="middle" width="40%">
+        <mj-text css-class="mob-padd-15 mob-text-center mob-footer-padd" padding="0 0 0 40px">
+          <a href="https://www.google.com/" target="_blank" style="margin:0"><img src="img/footer-logo.jpg" alt="logo" width="121px" height="27px"/></a>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" width="60%">
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="20px 40px 20px 10px">
+          <h3 style="margin:0;font-size:32px;font-weight:700;line-height:40px;">Subscribe to get latest updates</h3>
+        </mj-text>
+        <mj-text css-class="mob-padd-15 mob-text-center" padding="0 40px 20px 10px">
+          <a href="https://www.google.com/" target="_blank" style="display:inline-block;margin:0;padding:10px 20px;background-color:#000000;border-radius:4px;color:#ffffff;font-size:16px;font-weight:500;text-decoration:none;">Subscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
